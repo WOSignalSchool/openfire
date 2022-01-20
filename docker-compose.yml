@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  openfire:
+    image: armyguy255a/openfire:latest
+    ports:
+      - 9090:9090
